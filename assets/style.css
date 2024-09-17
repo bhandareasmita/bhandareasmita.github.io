@@ -1,0 +1,73 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    background: #333;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 100px 20px;
+    margin-top: 60px;
+    text-align: center;
+  }
+  
+  #about {
+    background-color: #f4f4f4;
+  }
+  
+  #skills {
+    background-color: #eaeaea;
+  }
+
+  #skills ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #skills ul li {
+    margin-bottom: 10px;
+  }
+  
+  #projects {
+    background-color: #f4f4f4;
+  }
+  
+  #contact {
+    background-color: #eaeaea;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+    margin-top: 20px;
+  }
+  
