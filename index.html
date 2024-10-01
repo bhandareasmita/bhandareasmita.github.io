@@ -5,97 +5,116 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Asmita Bhandare | Resume</title>
   <link href="output.css" rel="stylesheet">
-  <link rel="stylesheet" href="assets/style.css">
-
+  <style>
+    /* Custom styles for spacing */
+    .section-padding {
+      padding-top: 60px; /* Adjusted this value to reduce the height of the header */
+    }
+  </style>
 </head>
-<body class="bg-black">
+<body class="bg-gray-50 text-gray-800">
 
   <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="#about">About Me</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+  <nav class="bg-blue-600 shadow-lg sticky top-0 z-10">
+    <div class="container mx-auto px-4 py-4">
+      <ul class="flex space-x-6 text-white">
+        <li>
+          <a class="font-bold hover:text-blue-300 transition" href="#about">About Me</a>
+        </li>
+        <li>
+          <a class="font-bold hover:text-blue-300 transition" href="#skills">Skills</a>
+        </li>
+        <li>
+          <a class="font-bold hover:text-blue-300 transition" href="#projects">Projects</a>
+        </li>
+        <li>
+          <a class="font-bold hover:text-blue-300 transition" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
   </nav>
+  
+  <main class="flex flex-col items-center justify-center min-h-screen container mx-auto px-4">
+    <!-- About Section -->
+    <section id="about" class="border-b border-gray-200 py-8 bg-white rounded-lg shadow-lg w-full md:w-4/5 mx-auto p-6 mb-8 section-padding">
+      <div class="text-center">
+        <h1 class="font-bold text-4xl uppercase text-blue-600">Asmita Bhandare</h1>
+        <p class="font-light text-lg mt-2">Emerging Programmer</p>
+      </div>
+      <div class="mt-6 space-y-4 text-gray-700">
+        <p>
+          I bring a background in Electronics and Telecommunications and, after a 12-year break, I’m now pursuing a certification in Advanced Programming through TAFE.
+        </p>
+        <p>
+          Throughout this journey, I’ve delved into a variety of programming languages, frameworks, and essential tools like Git for collaboration.
+        </p>
+        <p>
+          This transition has reignited my passion for technology, and I’m eager to apply these skills to real-world projects. With a fresh perspective and renewed focus, I’m excited to contribute meaningfully to the tech industry and embrace the opportunities ahead.
+        </p>
+      </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="bg-white shadow-lg rounded-lg p-6 max-w-4xl mx-auto mt-16">
-    <h1 class="text-3xl font-bold mb-2">Asmita Bhandare</h1>
-    <p class="text-lg text-gray-600 mb-4">Emerging Programmer</p>
-    <hr class="mb-8">
-    <p class="text-gray-500">
-        I bring a background in Electronics and Telecommunications and, after a 12-year break, I’m now pursuing a certification in Advanced Programming through TAFE. 
-    </p>
-    <p class="text-gray-500">
-      Throughout this journey, I’ve delved into a variety of programming languages, frameworks, and essential tools like Git for collaboration.
-    </p>
-    <p class="text-gray-500">
-      This transition has reignited my passion for technology, and I’m eager to apply these skills to real-world projects. With a fresh perspective and renewed focus, I’m excited to contribute meaningfully to the tech industry and embrace the opportunities ahead.
-    </p>
-</section>
+    <!-- Skills Section -->
+    <section id="skills" class="border-b border-gray-200 py-8 bg-white rounded-lg shadow-lg w-full md:w-4/5 mx-auto p-6 mb-8 section-padding">
+      <h2 class="font-bold text-3xl text-center text-blue-600">Skills</h2>
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-6">
+        
+        <!-- Web Development -->
+        <div class="bg-blue-100 p-4 rounded-lg shadow-md h-full">
+          <h3 class="font-semibold text-xl text-blue-600">Web Development</h3>
+          <ul class="list-disc pl-5">
+            <li>PHP, Laravel</li>
+            <li>HTML, CSS, JavaScript</li>
+            <li>TailwindCSS</li>
+          </ul>
+        </div>
 
+        <!-- Database Management -->
+        <div class="bg-green-100 p-4 rounded-lg shadow-md h-full">
+          <h3 class="font-semibold text-xl text-green-600">Database Management</h3>
+          <ul class="list-disc pl-5">
+            <li>SQL, MySQL</li>
+            <li>Database Design & Optimization</li>
+          </ul>
+        </div>
 
-  <!-- Skills Section -->
-<section id="skills" class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-4xl mx-auto my-8">
-  <h2 class="text-2xl font-bold text-center mb-6">Skills</h2>
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    
-    <!-- Web Development -->
-    <div>
-      <h3 class="text-xl font-semibold mb-2">Web Development</h3>
-      <ul class="list-disc pl-6 text-gray-700">
-        <li>PHP, Laravel</li>
-        <li>HTML, CSS, JavaScript</li>
-        <li>TailwindCSS</li>
-      </ul>
-    </div>
+        <!-- Programming Languages -->
+        <div class="bg-yellow-100 p-4 rounded-lg shadow-md h-full">
+          <h3 class="font-semibold text-xl text-yellow-600">Programming Languages</h3>
+          <ul class="list-disc pl-5">
+            <li>Python, C#, Dart</li>
+            <li>.NET Framework</li>
+          </ul>
+        </div>
 
-    <!-- Database Management -->
-    <div>
-      <h3 class="text-xl font-semibold mb-2">Database Management</h3>
-      <ul class="list-disc pl-6 text-gray-700">
-        <li>SQL, MySQL</li>
-        <li>Database Design & Optimization</li>
-      </ul>
-    </div>
+        <!-- Collaboration Tools -->
+        <div class="bg-purple-100 p-4 rounded-lg shadow-md h-full">
+          <h3 class="font-semibold text-xl text-purple-600">Collaboration Tools</h3>
+          <ul class="list-disc pl-5">
+            <li>Git, GitHub</li>
+            <li>Agile Methodologies</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <!-- Programming Languages -->
-    <div>
-      <h3 class="text-xl font-semibold mb-2">Programming Languages</h3>
-      <ul class="list-disc pl-6 text-gray-700">
-        <li>Python, C#, Dart</li>
-        <li>.NET Framework</li>
-      </ul>
-    </div>
+    <!-- Projects Section -->
+    <section id="projects" class="border-b border-gray-200 py-8 bg-white rounded-lg shadow-lg w-full md:w-4/5 mx-auto p-6 mb-8 section-padding">
+      <h2 class="font-bold text-3xl text-center text-blue-600">Projects</h2>
+      <div class="mt-4 text-center">
+        <p>Details about your projects will go here.</p>
+      </div>
+    </section>
 
-    <!-- Collaboration Tools -->
-    <div>
-      <h3 class="text-xl font-semibold mb-2">Collaboration Tools</h3>
-      <ul class="list-disc pl-6 text-gray-700">
-        <li>Git, GitHub</li>
-        <li>Agile Methodologies</li>
-      </ul>
-    </div>
-  </div>
-</section>
+    <!-- Contact Section -->
+    <section id="contact" class="py-8 bg-white rounded-lg shadow-lg w-full md:w-4/5 mx-auto p-6 mb-8 section-padding">
+      <h2 class="font-bold text-3xl text-center text-blue-600">Contact</h2>
+      <p class="text-center mt-4">Email: <a class="text-blue-600 hover:underline" href="mailto:bhandareasmita@gmail.com">bhandareasmita@gmail.com</a></p>
+    </section>
+  </main>
 
-
-  <!-- Projects Section -->
-  <section id="projects" class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-4xl mx-auto my-8">
-    <h2>Projects</h2>
-    
-  </section>
-
-  <!-- Contact Section -->
-  <section id="contact" class="bg-gray-100 p-6 rounded-lg shadow-lg max-w-4xl mx-auto my-8">
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:bhandareasmita@gmail.com">bhandareasmita@gmail.com</a></p>
-  </section>
-
-  <footer>
-    <p>© 2024 Asmita Bhandare</p>
+  <footer class="bg-white shadow-lg mt-8 py-4 text-center">
+    <p class="text-gray-600">© 2024 Asmita Bhandare</p>
   </footer>
 
 </body>
