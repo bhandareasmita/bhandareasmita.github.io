@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Asmita Bhandare | Resume</title>
   <link href="output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
     /* Custom styles for spacing */
     .section-padding {
@@ -38,9 +39,30 @@
     <!-- About Section -->
     <section id="about" class="border-b border-gray-200 py-8 bg-white rounded-lg shadow-lg w-full md:w-4/5 mx-auto p-6 mb-8 section-padding">
       <div class="text-center">
-        <h1 class="font-bold text-4xl uppercase text-blue-600">Asmita Bhandare</h1>
+        <!-- Name -->
+        <h1 class="font-bold text-4xl uppercase text-blue-600">
+          Asmita Bhandare
+          
+        </h1>
+        <!-- Icons with Links -->
+        <span class="inline-flex items-center gap-6 ml-4 text-xl">
+          <!-- Email Icon -->
+          <a href="mailto:bhandareasmita@gmail.com" class="text-gray-600 hover:text-blue-600" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <!-- LinkedIn Icon -->
+          <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank" class="text-gray-600 hover:text-blue-600" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <!-- GitHub Icon -->
+          <a href="https://github.com/" target="_blank" class="text-gray-600 hover:text-blue-600" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        </span>
+        <!-- Subtitle -->
         <p class="font-light text-lg mt-2">Emerging Programmer</p>
       </div>
+     
       <div class="mt-6 space-y-4 text-gray-700">
         <p>
           I bring a background in Electronics and Telecommunications and, after a 12-year break, I’m now pursuing a certification in Advanced Programming through TAFE.
@@ -105,6 +127,40 @@
         <!-- Project 1 -->
         <div class="bg-gradient-to-tr from-gray-50 via-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
           <h3 class="font-bold text-3xl text-gray-800 text-center md:text-left mb-6 border-b border-gray-200 pb-4">
+            Wayfinder - Indoor Navigation Mobile App
+          </h3>
+          <div class="mt-6 flex flex-col md:flex-row md:gap-12 items-center md:items-start">
+            <div class="w-full md:w-1/2 flex justify-center">
+              <div class="bg-white p-4 rounded-lg shadow-md hover:scale-105 transition-transform duration-300">
+                <img 
+                  src="./assets/images/indoor_navigation.png" 
+                  alt="Indoor Navigation Project Screenshot" 
+                  class="rounded-lg shadow-lg w-full h-auto max-w-sm mx-auto"
+                >
+              </div>
+            </div>
+            <div class="w-full md:w-1/2 mt-6 md:mt-0 px-4 py-4">
+              <p class="text-gray-700 text-lg leading-relaxed">
+                This indoor navigation project was undertaken with the goal of developing a functioning prototype for navigating complex indoor environments, such as campuses and large buildings. While the objective was to create a deployable product, the project served primarily as a learning tool, allowing the team to delve into the complexities of app development and interactive design.
+              </p>
+              <p class="text-gray-700 text-lg leading-relaxed mt-4">
+                Although the project aimed at deployment, several challenges prevented full realization, including technological limitations and time constraints. The experience provided crucial insights into the iterative development process, emphasizing the importance of flexibility and continuous learning in the face of unexpected hurdles.
+              </p>
+              <ul class="list-disc list-inside text-gray-600 mt-6 space-y-4 pl-4 leading-relaxed">
+                <li><strong>Figma:</strong> Used for UI/UX design, creating detailed wireframes and interactive prototypes.</li>
+                <li><strong>Flutter:</strong> Applied for building the mobile interface, ensuring cross-platform functionality.</li>
+                <li><strong>Laravel & MySQL:</strong> Integrated as part of the backend framework to manage data handling and storage solutions.</li>
+                <li><strong>Version Control with Git:</strong> Essential for managing code changes and facilitating effective team collaboration.</li>
+                <li><strong>Project Management with Trello:</strong> Enabled tracking of tasks, deadlines, and project milestones.</li>
+                <li><strong>Collaborative Learning:</strong> The project emphasized the value of teamwork and collective problem-solving within a digital project setting.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="bg-gradient-to-tr from-gray-50 via-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
+          <h3 class="font-bold text-3xl text-gray-800 text-center md:text-left mb-6 border-b border-gray-200 pb-4">
             Portfolio-REST API
           </h3>
           <div class="mt-6 flex flex-col md:flex-row md:gap-12 items-center md:items-start">
@@ -136,7 +192,7 @@
         <!-- Divider -->
         <div class="border-t border-gray-300 my-8"></div>
             
-        <!-- Project 2 -->
+        <!-- Project 3 -->
         <div class="bg-gradient-to-tr from-gray-50 via-white to-gray-100 p-8 rounded-xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
           <h3 class="font-bold text-3xl text-gray-800 text-center md:text-left mb-6 border-b border-gray-200 pb-4">
             Workopia
@@ -174,8 +230,20 @@
     <!-- Contact Section -->
     <section id="contact" class="py-8 bg-white rounded-lg shadow-lg w-full md:w-4/5 mx-auto p-6 mb-8 section-padding">
       <h2 class="font-bold text-3xl text-center text-blue-600">Contact</h2>
-      <p class="text-center mt-4">Email: <a class="text-blue-600 hover:underline" href="mailto:bhandareasmita@gmail.com">bhandareasmita@gmail.com</a></p>
+      <!-- Email -->
+      <p class="text-center mt-4">
+        Email: <a class="text-blue-600 hover:underline" href="mailto:bhandareasmita@gmail.com">bhandareasmita@gmail.com</a>
+      </p>
+      <!-- LinkedIn -->
+      <p class="text-center mt-4">
+        LinkedIn: <a class="text-blue-600 hover:underline" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+      </p>
+      <!-- GitHub -->
+      <p class="text-center mt-4">
+        GitHub: <a class="text-blue-600 hover:underline" href="https://github.com/" target="_blank" rel="noopener noreferrer">https://github.com/</a>
+      </p>
     </section>
+    
   </main>
 
   <footer class="bg-white shadow-lg mt-8 py-4 text-center">
